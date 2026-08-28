@@ -28,38 +28,80 @@
   <img src="images/okp_128.png" alt="OneKeePass" width="128" />
   <br>
 </h1>
-<p><strong>OneKeePass</strong> is a cross-platform,open source and secure password manager. It supports the KeePass-compatible database (Kdbx 4.x). It stores and manages all your passwords and other sensitive information in a single encrypted file that can be stored in any location, including private and public cloud solutions. The database is locked with a master key.</p>
-<p>All created database files are encrypted using the best and most secure encryption algorithms currently known (AES-256, ChaCha20)</p>
+<p><strong>OneKeePass</strong> is a cross-platform, open-source password manager for KeePass-compatible KDBX 4.x databases. It keeps passwords and other sensitive information in a single encrypted file that you can store locally or with the storage provider of your choice. Your database is protected by a master key and encrypted using AES-256 or ChaCha20.</p>
+<p>OneKeePass is available for Windows, macOS, Linux, iOS, and Android. It works fully offline, and you decide where your password database files are stored.</p>
+<h2 id="download-onekeepass">Download OneKeePass</h2>
+<h3 id="desktop">Desktop</h3>
+<p>Download the latest release for <strong>Windows, macOS, or Linux</strong> from the <a rel="external" href="https://github.com/OneKeePass/desktop/releases">OneKeePass desktop releases page</a>.</p>
+<ul>
+<li><a rel="external" href="https://apps.apple.com/us/app/onekeepass-password-manager/id6764709055">Download OneKeePass from the Mac App Store</a></li>
+<li>A portable Windows zip is available from the desktop releases page. It can run from any writable location, including a USB drive, and keeps its application data beside the executable.</li>
+</ul>
+<h3 id="mobile">Mobile</h3>
+<ul>
+<li><a rel="external" href="https://apps.apple.com/us/app/onekeepass-password-manager/id6448712640">Download OneKeePass for iPhone and iPad</a></li>
+<li><a rel="external" href="https://play.google.com/store/apps/details?id=com.onekeepassmobile">Download OneKeePass for Android from Google Play</a></li>
+<li><a rel="external" href="https://apt.izzysoft.de/packages/com.onekeepassmobile">Download OneKeePass for Android from IzzyOnDroid</a></li>
+</ul>
 <h2 id="features">Features</h2>
 <ul>
-<li>Any number of databases can be created and used</li>
-<li>Optional additional security by using a key file with or without a master password</li>
-<li>Fully offline </li>
-<li>Entries are grouped as Types or Categories or the standard Group tree</li>
-<li>Custom entry type with any set of fields can be created as template and used to create entries</li>
-<li>Any number of custom fields can be added</li>
-<li>Custom fields can be organized as sections</li>
-<li>Upload attachments to an entry</li>
-<li>Basic Auto-Type feature that sends simulated keypresses to other applications in macOS</li>
-<li>Quick database unlock feature using TouchID (macOS,iOS, Android apps) </li>
+<li>Create and use any number of KeePass-compatible databases</li>
+<li>Organize entries by type, category, or the standard group tree</li>
+<li>Create reusable custom entry types and add custom text, Boolean, or date fields</li>
+<li>Organize custom fields into sections and attach files to entries</li>
+<li>Protect a database with a key file, with or without a master password</li>
+<li>Generate passwords and Diceware passphrases</li>
+<li>Generate and use time-based one-time passwords (TOTP)</li>
+<li>Merge databases, clone or copy entries, and move entries or groups</li>
+<li>Use light or dark themes and multiple languages</li>
+<li>Upload custom icons or fetch them from a URL or favicon</li>
+<li>Open databases directly from SFTP and WebDAV servers</li>
+<li>Store remote server credentials as SFTP Connection or WebDAV Connection entries</li>
+<li>Use built-in entry types for SSH keys, identities, passports, and driver licenses</li>
+<li>Import CSV exports from popular password managers and browsers on desktop</li>
 </ul>
-<h2 id="installation-and-quick-start">Installation and Quick start</h2>
-<p>You can start using OneKeePass on your Windows, macOS, or Linux computer using the latest pre-compiled binaries from the <strong><a href="https://github.com/OneKeePass/desktop/releases">downloads page</a></strong></p>
-<p>OneKeePass is also available for iOS and Android platforms. See <a href="https://github.com/OneKeePass/mobile">here</a> for details</p>
-<br>
-<p>Common <strong>FAQ</strong> about the application can be found <a href="https://github.com/OneKeePass/desktop/blob/main/docs/FAQ.md">here</a></p>
-<h2 id="how-to-build">How to build</h2>
-<p>OneKeePass is developed primarily using the ClojureScript and Rust programming languages and is built with - <a href="https://tauri.app/">Tauri</a>,<a href="https://react.dev/">React</a>,<a href="https://mui.com/">MUI</a> and many Rust crates</p>
-<p>To build your own binary, please follow the instructions <a href="https://onekeepass.github.io/./docs/BUILD.md">here</a></p>
-<h2 id="how-to-contribute">How to Contribute</h2>
-<p>The CONTRIBUTING document and other guidelines for code contributions are not yet ready. Till that time, please feel free to::</p>
+<h3 id="desktop-features">Desktop features</h3>
 <ul>
-<li><a href="https://github.com/OneKeePass/desktop/issues">Report bugs, suggest new features</a></li>
+<li>Quickly unlock with Touch ID on macOS or Windows Hello on Windows</li>
+<li>Use Auto-Type to send credentials to other applications on macOS</li>
+<li>Use OneKeePass as an SSH agent in Agent Mode or with an existing system agent in Client Mode</li>
+<li>Connect the OneKeePass browser extension for password autofill and passkey registration and authentication</li>
 </ul>
-<h2 id="privacy-policy">Privacy Policy</h2>
-<p><strong>OneKeePass</strong> does not collect any personal data or password information. See our <a href="https://onekeepass.github.io/privacy/">privacy policy</a></p>
+<h3 id="mobile-features">Mobile features</h3>
+<ul>
+<li>Quickly unlock with Face ID on iOS or fingerprint/face unlock on Android</li>
+<li>Autofill usernames, passwords, and one-time verification codes</li>
+<li>Use passkeys for passwordless registration and sign-in on iOS 17+ and Android 14+</li>
+<li>Protect the app with a PIN</li>
+<li>Open linked or child databases</li>
+<li>Detect external database changes and merge them</li>
+<li>Search all entries and sort by title, creation time, or modification time</li>
+</ul>
+<h2 id="browser-extensions">Browser extensions</h2>
+<p>The OneKeePass browser extension integrates the desktop app with supported browsers for password autofill and passkeys. It is currently available for:</p>
+<ul>
+<li><a rel="external" href="https://addons.mozilla.org/en-US/firefox/addon/onekeepass-browser/">Firefox</a></li>
+<li><a rel="external" href="https://chromewebstore.google.com/detail/onekeepass-browser/cmdmojmbfcpkloflnjkkdjcflaidangh">Chrome</a></li>
+<li><a rel="external" href="https://chromewebstore.google.com/detail/onekeepass-browser/cmdmojmbfcpkloflnjkkdjcflaidangh">Brave</a></li>
+</ul>
+<h2 id="help-and-development">Help and development</h2>
+<ul>
+<li><a rel="external" href="https://github.com/OneKeePass/desktop/blob/main/docs/FAQ.md">Desktop FAQ</a></li>
+<li><a rel="external" href="https://github.com/OneKeePass/mobile/blob/main/docs/FAQ.md">Mobile FAQ</a></li>
+<li><a rel="external" href="https://github.com/OneKeePass/desktop/blob/main/docs/BUILD.md">Build the desktop app</a></li>
+<li><a rel="external" href="https://github.com/OneKeePass/mobile/blob/main/docs/BUILD.md">Build the mobile apps</a></li>
+</ul>
+<p>OneKeePass is developed primarily in ClojureScript and Rust. The desktop app uses Tauri, React, and MUI; the mobile apps use React Native, Swift, and Kotlin alongside the shared Rust core.</p>
+<h2 id="contribute">Contribute</h2>
+<ul>
+<li><a rel="external" href="https://github.com/OneKeePass/desktop/issues">Report desktop bugs or suggest features</a></li>
+<li><a rel="external" href="https://github.com/OneKeePass/mobile/issues">Report mobile bugs or suggest features</a></li>
+<li><a rel="external" href="https://github.com/OneKeePass/onekeepass-translations">Contribute a translation</a></li>
+</ul>
+<h2 id="privacy">Privacy</h2>
+<p>OneKeePass does not collect personal data or password information. See the <a href="https://onekeepass.github.io/privacy/">privacy policy</a>.</p>
 <h2 id="license">License</h2>
-<p>This project is licensed under the GPLv3.</p>
+<p>OneKeePass is licensed under GPLv3.</p>
   </div> 
 
 <!-- <h1> Hello </h1> -->
