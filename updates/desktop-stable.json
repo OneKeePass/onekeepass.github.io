@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "platforms": {
+    "linux-x86_64": {
+      "version": "0.26.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+    },
+    "macos-aarch64": {
+      "version": "0.26.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+    },
+    "macos-x86_64": {
+      "version": "0.26.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+    },
+    "windows-x86_64": {
+      "version": "0.26.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+    }
+  }
+}
