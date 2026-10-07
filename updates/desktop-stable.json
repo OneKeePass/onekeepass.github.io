@@ -2,24 +2,24 @@
   "schemaVersion": 1,
   "platforms": {
     "linux-aarch64": {
-      "version": "0.26.0",
-      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+      "version": "0.27.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.27.0"
     },
     "linux-x86_64": {
-      "version": "0.26.0",
-      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+      "version": "0.27.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.27.0"
     },
     "macos-aarch64": {
-      "version": "0.26.0",
-      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+      "version": "0.27.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.27.0"
     },
     "macos-x86_64": {
-      "version": "0.26.0",
-      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+      "version": "0.27.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.27.0"
     },
     "windows-x86_64": {
-      "version": "0.26.0",
-      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.26.0"
+      "version": "0.27.0",
+      "releaseUrl": "https://github.com/OneKeePass/desktop/releases/tag/v0.27.0"
     }
   }
 }
